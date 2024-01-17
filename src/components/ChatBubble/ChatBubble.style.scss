@@ -1,0 +1,65 @@
+.chat-bubble {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 10px;
+  .userBubble {
+    padding-right: 50px;
+    display: flex;
+    color: var(--send-color);
+    background: #0b93f6;
+    align-self: flex-end;
+    color: #fff;
+    align-items: flex-end;
+    justify-content: flex-end;
+    max-width: 50%;
+    width: fit-content;
+    word-break: break-all;
+    border-bottom-right-radius: 0px;
+  }
+  .botBubble {
+    padding-right: 50px;
+    background: #e5e5ea;
+    color: black;
+    align-self: flex-start;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-bottom-left-radius: 0px;
+    max-width: 50%;
+    width: fit-content;
+    text-align: justify;
+    word-wrap: break-word;
+    white-space: pre-line;
+  }
+  .yesno-container {
+    width: min-content;
+    background-color: #0b93f625;
+    margin-left: auto;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    border: 1px solid #0b93f6;
+    border-radius: 1rem;
+    border-bottom-right-radius: 0px;
+    .MuiButton-root {
+      background-color: #fff;
+    }
+  }
+  .time {
+    color: gray;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    right: 10px;
+    font-size: small;
+  }
+  .user-time {
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    right: 10px;
+    font-size: small;
+  }
+}
+
